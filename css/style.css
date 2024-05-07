@@ -1,0 +1,50 @@
+.change-img{
+    height: 30rem;
+    width: 30rem;
+    /* background-color: black; */
+}
+
+.para-style{
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+.helloBanStyle{
+    color: tomato;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.myButtton{
+    padding: 1rem 2rem;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid pink;
+}
+/* button{
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+} */
+.anim{
+    box-shadow: 0 15px 1px 0 tomato;
+    opacity: 0.5;
+}
+
+.form-control{
+    margin-bottom: 1rem;
+}
+.mouse-event{
+    background-color: tomato;
+    height: 20rem;
+    width: 20rem;
+    padding: 2rem;
+}
+
+#div1{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+}

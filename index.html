@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Methode</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js" integrity="sha512-PJa3oQSLWRB7wHZ7GQ/g+qyv6r4mbuhmiDb8BjSFZ8NZ2a42oTtAq5n0ucWAwcQDlikAtkub+tPVCw4np27WCg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</head>
+<body>
+    <!-- reference 1
+    <h1 id="heading1">This is heading 1</h1>
+    <h1 id="heading2">This is heading 2</h1>
+    <h1 class="heading">This is heading 2</h1>
+    <h1 class="heading">This is heading 4</h1>
+
+    <p id="para"> Para</p>
+    -->
+
+    <!-- 
+    <h1 id="ID">This is ID</h1>
+    <h1 class="class">This is class</h1>
+    <h2>This is tag</h2>
+    
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li>Contact</li>
+    </ul>
+    <div class="my-div">
+        <a href="#">book</a>
+    </div>
+
+    <h3>This is h3 1</h3>
+    <h3>This is h3 2</h3>
+    <h3>This is h3 3</h3>
+    <h3>This is h3 4</h3>
+    -->
+    <!-- reference 2
+    <button onclick="nadim()">Nadim</button>
+    <button onclick="farzul()">Farzul</button>
+
+    <p id="papraId">This is changeable</p>
+    <img src="img/bg.jpg" alt="photo" class="change-img">
+    -->
+
+    <!-- reference 4
+    <div id="my-div" class="my-div" style="background-color: antiquewhite;">
+        <h1 class="fist-class" >This is h1</h1>
+        <h1>This is h2</h1>
+    </div>
+     -->
+
+     <!-- reference 5
+    <button onclick="prev()" >Previous</button>
+    <img class="slider-img" src="img/slider/1.jpg" alt="" width="300px" height="300px">
+    <button onclick="next()" >Next</button>
+    -->
+
+
+    <!-- reference 6
+    <p>This is a paragraph</p>
+    <button onclick="addStyle()" >add style</button>
+    <button onclick="removeStyle()">remove style</button>
+
+    <button>Clike to alert</button>
+    <h1 class="helloBan">Hello Bangladesh</h1>
+    -->
+
+    <!-- reference 7
+    <h1>You have not clicked</h1>
+    <button class="myButtton" >button 1</button>
+    <button class="myButtton" >button 2</button>
+    <button class="myButtton" >button 3</button>
+    -->
+
+    <!-- reference 8
+    <button class="myButtton" >A</button>
+    <button class="myButtton" >B</button>
+    <button class="myButtton" >C</button>
+    -->
+    <!-- reference 9
+    <button class="my-Buttton a">a</button>
+    <button class="my-Buttton b">b</button>
+    <button class="my-Buttton c">c</button>
+    -->
+    <!-- reference 10
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <p>this is  demo</p>
+    -->
+    <!-- reference 11
+    <label for="name">Name: 
+        <input type="text" name="name" id="name-input" class="name-input">
+    </label>
+    -->
+
+    <!-- reference 12
+    <div class="">
+        <h2>Programming Languages</h2>
+        <label for="proram">
+            <input type="checkbox" name="proram" id="" value="C">C
+        </label>
+        <label for="proram">
+            <input type="checkbox" name="proram" id="" value="C++">C++
+        </label>
+        <label for="proram">
+            <input type="checkbox" name="proram" id="" value="JS">JS
+        </label>
+        <label for="proram">
+            <input type="checkbox" name="proram" id="" value="html">HTML
+        </label>
+        <label for="proram">
+            <input type="checkbox" name="proram" id="" value="css">CSS
+        </label>
+    </div>
+    -->
+    <!-- reference 13
+    <label for="depertment"></label>
+    <select name="depertment" id="depertment">
+        <option value="cse">CSE</option>
+        <option value="me">ME</option>
+        <option value="eee">EEE</option>
+        <option value="civil">Civil</option>
+        <option value="aidt">AIDT</option>
+    </select>
+     -->
+    <!-- reference 14
+     <form action="">
+        <div class="form-control">
+            <label for="name">
+                Name:
+                <input type="text" id="name" name="name" required autofocus>
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="email">
+                Email:
+                <input type="email" id="email" name="email" required>
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="password">
+            Password:
+            <input type="password" id="password" name="password" required minlength="4" maxlength="8">
+            </label>
+        </div>
+        <div class="form-control">
+            <input type="submit" value="signup" id="signup">
+        </div>
+     </form>
+     -->
+
+    <!-- reference 15
+    <video controls width="400" muted>
+        <source src="video/AKRA & NOES - And Die.mp4" type="video/mp4">
+        your browser does not support html5 video element
+    </video>
+    -->
+    <!-- reference 16
+    <details>
+        <summary>Rezaul Karim RK</summary>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione repudiandae repellat facilis officia sapiente rem.</p>
+    </details>
+    <div style="height: 150vh;"></div>
+    -->
+    
+    <!-- reference 17 
+    <div class="mouse-event" id="mouse-event-id">
+        <p>i am a div</p>
+        <button class="btn">btn1</button>
+        <button class="btn">btn2</button>
+        <button class="btn">btn3</button>
+    </div>
+    
+    -->
+
+    <!-- reference 18 
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    -->
+
+    <!-- reference 19
+    <input type="text" name="" id="">
+    -->
+
+    <!-- reference 20
+    <input type="text">
+    <p>Notice Board</p>
+    -->
+
+    <!--reference 21
+    <div id="div1"></div>
+    <p id="drag1" draggable="true">Hi I  am Rezaul Karim RK</p>
+    -->
+
+    <!--reference 22
+    <div>
+        <h1>BOM</h1>
+        <div class="location-div">
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+        <button id="vist-button">vist my facebook profile</button>
+    </div>
+    -->
+    
+    <!--  reference 23
+    <button class="save-btn">Save</button>
+    <p class="message"></p>
+    -->
+
+    <!--  reference 24
+    <button class="save-btn">Save</button>
+    <p class="message"></p>
+    -->
+
+    <!--  reference 25
+    <p>Enter a number between 5 to 10 : </p>
+    <input type="text" id="numTextfield"/>
+    <button id="checkButton">check</button>
+    -->
+
+    <!-- reference 24 
+    <div>
+        <canvas id="my-carvas" width="400px" height="300px"></canvas>
+    </div>
+    -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="javascripts/index.js" type="module"></script>
+</body>
+</html>
